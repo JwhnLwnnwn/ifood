@@ -1,0 +1,36 @@
+* { /*Alteração universal*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "iFood RC Textos" sans-serif
+}
+
+body { /*Alteração no escopo do body*/
+  width: 100%;
+  height: 100vh;
+
+  background-color: #ffffff;
+  color: #3b3a3a; /*Altera a cor do texto*/
+  display: flex; /*Torna todos os elementos dentro em peças flexíveis*/
+  flex-direction: column; /*Ordena verticalmente os elementos (O padrão é horizontal)*/
+  justify-content: space-between; /*Prende o cabeçalho e o rodapé no topo e fundo, o resto fica espaçado igualmente*/
+}
+
+a{ /*Alteração para os links*/
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: 'iFoodRCTeextos';
+  src: url('fonts/iFoodRCTeextos-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Then apply it globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'iFoodRCTeextos', sans-serif;
+}

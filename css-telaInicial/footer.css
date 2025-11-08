@@ -1,0 +1,100 @@
+footer hr {
+  display: flex;
+  margin: 20px auto; /* top/bottom margin + center horizontally */
+  width: 80%;
+  color: #6c6a6a;
+  opacity: 70%;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 10.2rem;
+}
+
+.infos h3 {
+  font-size: 1rem;
+}
+
+.infos a {
+  color: #6c6a6a;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infos i {
+  color: #6c6a6a;
+  padding-right: 1rem;
+  font-size: 2rem;
+  width: 3rem;
+}
+
+.infos .coluna1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infos .coluna2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infos .coluna3 h3 {
+  padding-bottom: 2rem;
+}
+
+.infos .coluna3 .icones {
+  display: flex;
+  flex-direction: row;
+}
+
+/*------------------------------------------------------------------------*/
+
+.dados_legais {
+  display: flex;
+  justify-content: space-between; /* coloca uma coluna em cada lado */
+  align-items: center;            /* centraliza verticalmente */
+  flex-wrap: wrap;                /* se a tela for pequena, quebra bonitinho */
+  padding: 0 10rem;
+  padding-bottom: 1rem;
+}
+
+/* Coluna da esquerda (logo + texto) */
+.dados_legais .colunaPrimeiro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;           /* espaço entre o logo e o texto */
+  flex: 0 1 auto;      /* impede que ela ocupe o espaço todo */
+  max-width: 60%;      /* opcional: limite para não empurrar a outra coluna */
+  color: #6c6a6a;
+}
+
+.dados_legais .colunaPrimeiro img {
+  height: 30px;        /* ajuste o tamanho conforme o design */
+  width: auto;
+}
+
+/* Coluna da direita (links) */
+.dados_legais .colunaSegundo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;            /* espaçamento entre os links */
+  white-space: nowrap;  /* impede quebra de linha */
+}
+
+.dados_legais .colunaSegundo a {
+  color: #6c6a6a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.dados_legais .colunaSegundo a:hover {
+  text-decoration: underline;
+}
+

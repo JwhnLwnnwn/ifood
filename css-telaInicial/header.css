@@ -1,0 +1,52 @@
+header {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  padding: 2.7rem;
+}
+
+header img {
+  width: 6%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
+  margin-left: 7.5rem;
+}
+
+header nav a {
+  color: #42413f;
+}
+
+header .login {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 7.5rem;
+}
+
+header .login .criar {
+  color: #ea1d2c;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+
+header .login .entrar {
+  color: #f9f9f9;
+  background: #ea1d2c;
+  border: none;
+  border-radius: 5%;
+  padding: 0.8rem 1.6rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header .login button:hover {
+  background-color: #ef515c;
+}

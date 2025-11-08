@@ -1,0 +1,158 @@
+.principal {
+  background-color: #f9f9f9;
+  padding: 5rem;
+  gap: 1rem;
+}
+
+.principal h1 {
+  font-size: 2.5rem;
+}
+
+.principal p {
+  color: #6c6a6a;
+}
+
+.principal .titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.principal .barra_pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+
+/*---------------------------*/
+
+main .restaurantes button {
+  color: #f9f9f9;
+  background: #ea1d2c;
+  border: none;
+  border-radius: 10%;
+  padding: 0.8em 3rem;
+  font-size: medium;
+  font-weight: bold;
+}
+
+main hr {
+  display: flex;
+  margin: 20px auto; /* top/bottom margin + center horizontally */
+  width: 80%;
+  color: #6c6a6a;
+  opacity: 70%;
+}
+
+/*---------------------------*/
+
+.linha1 {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.linha1 .restaurantes a {
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.linha1 .restaurantes button {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 125px;
+  padding: 0.5rem; /* controls button size */
+  background-color: #cc1825;
+  border-radius: 15px;
+  white-space: nowrap; /* keeps text on one line */
+  border: none; /* optional */
+  cursor: pointer;
+}
+
+.linha1 .restaurantes .textoRestaurante {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 5rem;
+}
+
+.restaurantes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: #ea1d2c;
+  padding: 1rem 0.1rem;
+}
+
+/*---------------------------*/
+
+.imagem {
+  width: 75%;
+  height: 75%;
+  position:a
+}
+
+.imagem2 {
+  height: 15%;
+  width: 35%;
+}
+
+.secundario {
+  padding: 0rem 25rem;
+}
+/*------------------------------------------------------------------------*/
+
+.barra_pesquisa form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 0.5rem 0.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  gap: 0.3rem;
+  width: 640px; /* 👈 aumenta aqui (ex: 100%, 400px, etc.) */
+}
+
+.barra_pesquisa i {
+  color: #ea1d2c;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.barra_pesquisa input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  opacity: 70%;
+}
+
+.barra_pesquisa button {
+  background-color: #ea1d2c;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 10%;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.barra_pesquisa button:hover {
+  background-color: #ef515c;
+}
