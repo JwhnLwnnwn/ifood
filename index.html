@@ -1,199 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site do Ifood</title>
 
     <!--Estou unindo o meu html ao meu CSS (Tela Inicial)-->
-    <link rel="stylesheet"
-        href="css-telaInicial/general.css">
-    <link rel="stylesheet"
-        href="css-telaInicial/header.css">
-    <link rel="stylesheet"
-        href="css-telaInicial/main.css">
-    <link rel="stylesheet"
-        href="css-telaInicial/footer.css">
-
+    <link rel="stylesheet" href="css-telaInicial/general.css" />
+    <link rel="stylesheet" href="css-telaInicial/header.css" />
+    <link rel="stylesheet" href="css-telaInicial/main.css" />
+    <link rel="stylesheet" href="css-telaInicial/footer.css" />
+    <link rel="stylesheet" href="css/home.css" />
 
     <!--ícones-->
-    <link rel="icon" type="image/png"
-        href="img/icons/icone_ifood1.png" />
+    <link rel="icon" type="image/png" href="img/icons/icone_ifood1.png" />
     <script
-        src="https://kit.fontawesome.com/493256260c.js"
-        crossorigin="anonymous"></script>
-</head>
+      src="https://kit.fontawesome.com/493256260c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <img src="img/assets/logo_ifood.png"
-                alt="">
-            <a href="">Entregador</a>
-            <a href="">Restaurante e
-                Mercado</a>
-            <a href="">Carreiras</a>
-            <a href="">Ifood card</a>
-            <a href="">Para
-                empresas</a>
-            <!--Também pode ser usado <button type="button">Click Me!</button>-->
-        </nav>
-        <div class="login">
-            <button type="button"
-                class="criar">criar
-                conta</button>
-            <button type="button"
-                class="entrar">Entrar</button>
-        </div>
+      <nav>
+        <img src="img/assets/logo_ifood.png" alt="" />
+        <a href="">Entregador</a>
+        <a href="">Restaurante e Mercado</a>
+        <a href="">Carreiras</a>
+        <a href="">Ifood card</a>
+        <a href="">Para empresas</a>
+        <!--Também pode ser usado <button type="button">Click Me!</button>-->
+      </nav>
+      <div class="login">
+        <button type="button" class="criar">criar conta</button>
+        <button type="button" class="entrar">Entrar</button>
+      </div>
     </header>
 
     <main>
-        <section class="principal">
-            <div class='titulo'>
-                <h1>Tudo para facilitar o
-                    seu
-                    dia!</h1>
-                <p>O que você precisa está
-                    aqui!
-                    Peça e receba onde
-                    estiver.
-                </p>
+      <section class="principal">
+        <div class="titulo">
+          <h1>Tudo para facilitar o seu dia!</h1>
+          <p>O que você precisa está aqui! Peça e receba onde estiver.</p>
 
-                <div
-                    class="barra_pesquisa">
-                    <form>
-                        <div class="campo">
-                            <i
-                                class="fa-solid fa-location-dot"></i>
-                            <input
-                                type="text"
-                                placeholder="Endereço de entrega e número" />
-                        </div>
-                        <button
-                            type="submit">Buscar</button>
-                    </form>
-                </div>
+          <div class="barra_pesquisa">
+            <form>
+              <div class="campo">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Endereço de entrega e número" />
+              </div>
+              <button type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="multiline-cards">
+        <div class="gigant-cards">
+          <a href="#" class="card restaurante">
+            <div class="card-text">
+              <span class="title">Restaurante</span>
+              <span class="ver-opcoes">Ver opções &gt;</span>
             </div>
-        </section>
-
-        <section class="secundario">
-            <div class="linha1">
-                <div class="restaurantes">
-                    <div
-                        class="textoRestaurante">
-                        <a
-                            href="">Restaurante</a>
-                        <button>Ver
-                            opções
-                            ></button>
-                    </div>
-                    <img class="imagem"
-                        src="img/assets/pngtree-burger-food-png-free-download-png-image_13329455.png"
-                        alt="">
-                </div>
-
-                <div class="mercado">
-                    <div
-                        class="textoMercado">
-                        <a
-                            href="">Mercado</a>
-                        <button>Ver
-                            opções
-                            ></button>
-                        <img class = "imagem2" src="img/assets/vecteezy_3d-market-basket-full-of-products-isolated-on-a-transparent_48557636.png"
-                            alt="">
-                    </div>
-                </div>
+            <img
+              class="card-img"
+              src="img/assets/pngtree-burger-food-png-free-download-png-image_13329455.png"
+              alt="Restaurante"
+            />
+          </a>
+          <a href="#" class="card mercado">
+            <div class="card-text">
+              <span class="title">Mercado</span>
+              <span class="ver-opcoes market">Ver opções &gt;</span>
             </div>
-
-            <div class="linha2">
-                <a href="">
-                    <!--<figure><img src="img/assets/bebidas.png" alt=""></figure>-->
-                    <p>Bebidas</p>
-                </a>
-                <a href="">
-                    <!--<figure><img src="img/assets/first-aid-kit-with-pills-and-bandages-isolated-free-png.png" alt=""></figure>-->
-                    <p>Farmácia</p>
-                </a>
-                <a href="">
-                    <!--<figure><img src="img/assets/gato.webp" alt=""></figure>-->
-                    <p>Pet Shop</p>
-                </a>
-            </div>
-        </section>
-        <hr>
+            <img class="card-img" src="img/assets/market.png" alt="Mercado" />
+          </a>
+        </div>
+        <div class="collapsed-cards">
+          <a href="">
+            <!--<figure><img src="img/assets/bebidas.png" alt=""></figure>-->
+            <p>Bebidas</p>
+          </a>
+          <a href="">
+            <!--<figure><img src="img/assets/first-aid-kit-with-pills-and-bandages-isolated-free-png.png" alt=""></figure>-->
+            <p>Farmácia</p>
+          </a>
+          <a href="">
+            <!--<figure><img src="img/assets/gato.webp" alt=""></figure>-->
+            <p>Pet Shop</p>
+          </a>
+        </div>
+      </section>
+      <hr />
     </main>
 
     <footer>
-        <section class="infos">
+      <section class="infos">
+        <div class="coluna1">
+          <h3>iFood</h3>
+          <a href="">Site institucional</a>
+          <a href="">Fale conosco</a>
+          <a href="">Conta e segurança</a>
+          <a href="">Carreira</a>
+          <a href="">Entregadores</a>
+        </div>
 
-            <div class="coluna1">
-                <h3>iFood</h3>
-                <a href="">Site
-                    institucional</a>
-                <a href="">Fale conosco</a>
-                <a href="">Conta e
-                    segurança</a>
-                <a href="">Carreira</a>
-                <a href="">Entregadores</a>
-            </div>
+        <div class="coluna2">
+          <h3>Descubra</h3>
+          <a href="">Cadastre seu Restaurante ou Mercado</a>
+          <a href="">iFood Shop</a>
+          <a href="">iFood Empresas</a>
+          <a href="">Blog iFood Empresas</a>
+          <a href=""></a>
+        </div>
 
-            <div class="coluna2">
-                <h3>Descubra
-                </h3>
-                <a href="">Cadastre seu
-                    Restaurante ou
-                    Mercado</a>
-                <a href="">iFood Shop</a>
-                <a href="">iFood
-                    Empresas</a>
-                <a href="">Blog iFood
-                    Empresas</a>
-                <a href=""></a>
-            </div>
+        <div class="coluna3">
+          <h3>Social</h3>
+          <div class="icones">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="dados_legais">
+        <div class="colunaPrimeiro">
+          <img src="img/assets/logo_ifood.png" alt="" />
+          <p>
+            John Lennon Fernandes de Andrade, 2025. Todos os direitos
+            reservados.
+          </p>
+        </div>
 
-            <div class="coluna3">
-                <h3>Social</h3>
-                <div class="icones">
-                    <i
-                        class="fa-brands fa-facebook"></i>
-                    <i
-                        class="fa-brands fa-twitter"></i>
-                    <i
-                        class="fa-brands fa-youtube"></i>
-                    <i
-                        class="fa-brands fa-instagram"></i>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section class="dados_legais">
-            <div class="colunaPrimeiro">
-                <img src="img/assets/logo_ifood.png"
-                    alt="">
-                <p>John Lennon Fernandes de
-                    Andrade, 2025. Todos os
-                    direitos
-                    reservados.</p>
-            </div>
-
-            <div class="colunaSegundo">
-                <a href="">Termos e
-                    condições de
-                    uso</a>
-                <a href="">Código de
-                    conduta</a>
-                <a href="">Privacidade</a>
-                <a href="">
-                    Dicas de
-                    segurança</a>
-            </div>
-        </section>
+        <div class="colunaSegundo">
+          <a href="">Termos e condições de uso</a>
+          <a href="">Código de conduta</a>
+          <a href="">Privacidade</a>
+          <a href=""> Dicas de segurança</a>
+        </div>
+      </section>
     </footer>
-
-</body>
-
+  </body>
 </html>
